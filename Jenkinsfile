@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello git branch') {
             steps {
-                echo "$GIT_BRANCH"
+                echo "$USER"
             }
         }
         stage('Docker Build') {
